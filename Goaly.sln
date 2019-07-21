@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29111.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoalyAPI", "API\GoalyAPI\GoalyAPI.csproj", "{2E7EC8EB-6FFE-4256-ADB9-8AC04C07EEC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoalyUI", "Frontend\GoalyUI\GoalyUI.csproj", "{00DD92A8-B75C-449D-AE0F-E3B348767DBE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoalyAccountService", "Services\GoalyAccountService\GoalyAccountService.csproj", "{08840D06-E196-481E-9431-C92E2893A9C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoalyShared", "Shared\GoalyShared\GoalyShared.csproj", "{2DA1A4AD-A289-4048-A96F-DDCFA1A14483}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoalyNotificationWorker", "Workers\GoalyNotificationWorker\GoalyNotificationWorker.csproj", "{4B1CAF7F-C779-4035-AC04-45A5D5BCC79C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoalyProto", "Proto\GoalyProto\GoalyProto.csproj", "{5242702C-EA64-4605-9F6F-1D1DC3C82117}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E7EC8EB-6FFE-4256-ADB9-8AC04C07EEC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E7EC8EB-6FFE-4256-ADB9-8AC04C07EEC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E7EC8EB-6FFE-4256-ADB9-8AC04C07EEC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E7EC8EB-6FFE-4256-ADB9-8AC04C07EEC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00DD92A8-B75C-449D-AE0F-E3B348767DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DD92A8-B75C-449D-AE0F-E3B348767DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DD92A8-B75C-449D-AE0F-E3B348767DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DD92A8-B75C-449D-AE0F-E3B348767DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08840D06-E196-481E-9431-C92E2893A9C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08840D06-E196-481E-9431-C92E2893A9C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08840D06-E196-481E-9431-C92E2893A9C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08840D06-E196-481E-9431-C92E2893A9C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DA1A4AD-A289-4048-A96F-DDCFA1A14483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DA1A4AD-A289-4048-A96F-DDCFA1A14483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DA1A4AD-A289-4048-A96F-DDCFA1A14483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DA1A4AD-A289-4048-A96F-DDCFA1A14483}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B1CAF7F-C779-4035-AC04-45A5D5BCC79C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B1CAF7F-C779-4035-AC04-45A5D5BCC79C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B1CAF7F-C779-4035-AC04-45A5D5BCC79C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B1CAF7F-C779-4035-AC04-45A5D5BCC79C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5242702C-EA64-4605-9F6F-1D1DC3C82117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5242702C-EA64-4605-9F6F-1D1DC3C82117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5242702C-EA64-4605-9F6F-1D1DC3C82117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5242702C-EA64-4605-9F6F-1D1DC3C82117}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70F4A61A-4063-4274-A1C4-FB9881E5B25F}
+	EndGlobalSection
+EndGlobal
